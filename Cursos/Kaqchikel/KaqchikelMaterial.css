@@ -76,7 +76,7 @@
 
 
 /*__________________________________________________________________*/
-/*_____________________cursos de Idiomas________________________________*/
+/*_____________________Primera fila________________________________*/
 #container-fila-uno{
 	display: flex;
 	flex-direction: column;
@@ -99,13 +99,13 @@
 	overflow: hidden;
 	color: white;
 }
-.curso-excel{
+.anual-2022{
 	background-image:  linear-gradient(
 	0deg,
 	rgba(0, 0, 0, 0.50),
 	rgba(0, 0, 0, 0.50)
 	)
-	, url(../../imagenes/Informatica/cursos.png);
+	, url(../../imagenes/Kaqchikel/2022-kaqchikel-anual.gif);
 	width: 250px; height: 150px;
 	background-size: cover;
 	background-position: center;
@@ -131,7 +131,7 @@
 }
 
 /*__________________________________________________________________*/
-/*_____________________cursos de Tecnoloiga____________________________*/
+/*_____________________Segunda linea____________________________*/
 
 #container-fila-dos{
 	display: flex;
@@ -213,7 +213,7 @@
 		padding: 1rem 0;
 	}
 	
-	#material .vacacional-2022, .curso-excel, .curso-canva, .curso-java1,
+	#material .vacacional-2022, .anual-2022, .curso-canva, .curso-java1,
 	.curso-presentaciones, .curso-Excel2{
 		width: 350px;
 		height: 200px;
